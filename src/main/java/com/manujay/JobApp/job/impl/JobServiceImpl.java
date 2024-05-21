@@ -7,10 +7,10 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class JobService implements com.manujay.JobApp.job.JobService {
+public class JobServiceImpl implements com.manujay.JobApp.job.JobService {
     JobRepository jobRepository;
 
-    public JobService(JobRepository jobRepository) {
+    public JobServiceImpl(JobRepository jobRepository) {
         this.jobRepository = jobRepository;
     }
 
