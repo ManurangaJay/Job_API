@@ -10,11 +10,11 @@
 	</parent>
 	<groupId>com.manujay</groupId>
 	<artifactId>JobApp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>JobApp</name>
 	<description>Job Application</description>
 	<properties>
-		<java.version>22</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -44,6 +44,12 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -54,5 +60,6 @@
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>
